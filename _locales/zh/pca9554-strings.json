@@ -1,0 +1,7 @@
+{
+	"PCA9554|block": "pca9554引脚扩展",
+	"PCA9554.pca9554_pinMode|block": "设置扩展引脚 %pin 为 %mode 模式",
+	"PCA9554.pca9554_pinPolarity|block":"设置扩展引脚 %pin 极性为 %polarity",
+	"PCA9554.pca9554_digitalWrite|block": "向扩展引脚 %pin 数字写入值 %val",
+	"PCA9554.pca9554_digitalRead|block": "数字读取扩展引脚 %pin"
+}
