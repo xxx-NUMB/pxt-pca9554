@@ -83,9 +83,9 @@ namespace PCA9554 {
         pca9554_beging();
 
         if (mode == 1) {
-            mode_ctrl |= ~pin;
+            mode_ctrl |= pin;
         } else if (mode == 2) {
-            mode_ctrl &= pin;
+            mode_ctrl &= ~pin;
         } 
         i2cwrite(PCA9554_ADDRESS, PCA9554_REG_CTRL, mode_ctrl);
     }
