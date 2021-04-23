@@ -40,7 +40,7 @@ enum Extend_Pin {
 
 //% color= #00ffff block="PCA9554"
 namespace PCA9554 {
-    const PCA9554_ADDRESS  = 0x20
+    const PCA9554_ADDRESS  = 0x38
     const PCA9554_REG_INP  = 0x00
     const PCA9554_REG_OUT  = 0x01
     const PCA9554_REG_POL  = 0x02
